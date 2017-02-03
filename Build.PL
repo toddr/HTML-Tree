@@ -1,7 +1,7 @@
 use 5.008;
 use strict;
 use warnings;
-use inc::My_Build;
+require './inc/My_Build.pm';
 
 my $builder = inc::My_Build->new(
     module_name        => 'HTML::Tree',
